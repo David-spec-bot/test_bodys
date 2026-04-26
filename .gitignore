@@ -21,6 +21,12 @@ build/
 backend/storage/*
 !backend/storage/.gitkeep
 
+# SMPL-X weights (NOT redistributable per license, also too large for GitHub)
+backend/models/smplx/*
+!backend/models/smplx/.gitkeep
+*.npz
+*.pkl
+
 # IDE
 .vscode/
 .idea/
