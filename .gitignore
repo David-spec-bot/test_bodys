@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+**/.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Storage / generated outputs
+backend/storage/*
+!backend/storage/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Env
+.env
+.env.local
